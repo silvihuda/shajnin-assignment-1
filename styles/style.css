@@ -56,6 +56,36 @@ margin-top: 0;
   width:50%;
   margin-right: auto;
   margin-left: auto;
- 
+  margin-bottom: 100px;
+}
+/* Welcome banner styles */
+.welcome-banner-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 
+}
+.welcome-banner-title{
+color: #FFF;
+font-size: 64px;
+font-weight: 900;
+letter-spacing: 7.04px;
+margin-bottom: 24px;
+}
+.welcome-text{
+color: rgba(255, 255, 255, 0.80); 
+font-weight: 400;
+margin-top: 0;
+margin-bottom: 40px;
+}
+.welcome-banner{
+    max-width: 600px;
+}
+.join{
+    border-radius: 5px;
+    color: darkmagenta;
 }
