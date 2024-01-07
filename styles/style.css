@@ -1,0 +1,61 @@
+*{
+    font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
+}
+/* banner related styles */
+.banner-content{
+    background-image: url('../resources/Banner\ Image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 100vh;
+    margin: auto;
+}
+.banner-title{
+ color:  #FFF;
+text-align: center;
+font-size: 40px;
+font-weight: 400;
+line-height: normal;
+padding: 100px 200px 0;
+}
+.banner-description{
+ color: #FFF;
+text-align: center;
+font-size: 80px;
+font-weight: 900;
+line-height: 95px; 
+margin: 10px 300px 100px;
+}
+/* discount section styles */
+.discount-heading{
+color: #F00;
+text-align: center;
+font-size: 88px;
+font-weight: 700;
+margin-bottom: 40px;
+}
+.discount-title{
+color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+margin-top: 0;
+margin-bottom: 8px;
+}
+.discount-description{
+color: #070211;
+text-align: center;
+font-size: 48px;
+font-weight: 700;
+margin-bottom: 50px;
+margin-top: 0;
+}
+.new-year-image{
+  width:50%;
+  margin-right: auto;
+  margin-left: auto;
+ 
+
+}
