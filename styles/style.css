@@ -3,6 +3,10 @@
     font-family: 'Inter', sans-serif;
 }
 /* banner related styles */
+.banner{
+    margin-left: 100px;
+    margin-right: 100px;
+}
 .banner-content{
     background-image: url('../resources/Banner\ Image.png');
     background-size: cover;
@@ -25,7 +29,7 @@ text-align: center;
 font-size: 80px;
 font-weight: 900;
 line-height: 95px; 
-margin: 10px 300px 100px;
+margin: 10px 150px 100px;
 }
 /* discount section styles */
 .discount-heading{
@@ -67,7 +71,9 @@ margin-top: 0;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 30px 30px 0px 150px;
 }
 .welcome-banner-title{
 color: #FFF;
@@ -88,4 +94,49 @@ margin-bottom: 40px;
 .join{
     border-radius: 5px;
     color: darkmagenta;
+}
+/* portfolio section styles */
+.portfolio-heading{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 120px;
+    margin-bottom: 16px;
+}
+.portfolio-title{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 22px;
+}
+.portfolio-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.gifts{
+    max-width: 800px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.portfolio-image-container{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+ .image-row-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 24px;
+} 
+.image-row-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+   
 }
