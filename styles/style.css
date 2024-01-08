@@ -109,6 +109,73 @@
     color: darkmagenta;
 }
 
+/* advertisement section styles */
+.advertisement {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer-heading {
+    margin-top: 220px;
+    margin-bottom: 0;
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.offer-time {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.offer-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0;
+    text-align: justify;
+}
+
+.adv-image {
+    width: 520px;
+    height: 220px;
+    border-radius: 50%;
+    border: 8px solid #F00;
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 80px;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.heading {
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 210px;
+    margin-bottom: 0;
+}
+
+.text {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
 /* portfolio section styles */
 .portfolio-heading {
     color: #F00;
@@ -196,10 +263,12 @@
     text-align: center;
     padding-bottom: 80px;
     margin-top: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .email-text {
-    border-radius: 50px;
+    border-radius: 50px 0px 0px 50px;
     background: #FFF;
     border: 0;
     color: rgba(7, 2, 17, 0.30);
@@ -207,7 +276,7 @@
     font-size: 18px;
     font-weight: 400;
     padding: 15px 150px 15px 20px;
-
+    margin: 0;
 }
 
 .button {
@@ -219,6 +288,7 @@
     border: 0;
     background: #F00;
     padding: 15px 30px;
+    margin: 0;
 }
 
 /* footer related style */
