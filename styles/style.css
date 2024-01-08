@@ -144,7 +144,7 @@
 
 .adv-image {
     width: 520px;
-    height: 220px;
+    height: 200px;
     border-radius: 50%;
     border: 8px solid #F00;
     margin-top: 150px;
@@ -225,6 +225,13 @@
     flex-direction: row;
     justify-content: space-between;
     gap: 24px;
+}
+.portfolio-image{
+    transition: 1s;
+}
+.portfolio-image:hover{
+    transform: scale(0.7);
+    z-index: 2;
 }
 
 /* subscription form styles */
